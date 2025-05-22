@@ -1,16 +1,18 @@
 import styled from "styled-components";
+import starFill from "../../assets/images/Star_fill.svg";
+import star from "../../assets/images/Star.svg"
 
 const Rating = ({ rating, votes }) => {
     return (
         <RatingContainer>
             {rating ? (
                 <>
-                    <img src="./src/assets/images/Star_fill.svg" alt="Star fill" />
+                    <img src={starFill} alt="Star fill" />
                     <p>{rating} <span>({votes} votes)</span></p>
                 </>
             ) : (
                 <>
-                    <img src="./src/assets/images/Star.svg" alt="Star" />
+                    <img src={star} alt="Star" />
                     <span>No ratings</span>
                 </>
             )}

@@ -2,6 +2,10 @@ import styled from "styled-components";
 import { ProductFilters } from "../../components/product-filters/ProductFilters";
 import CoffeeList from "../../components/coffee-list";
 import { useState } from "react";
+import bgCafeLg from "../../assets/images/bg-cafe-lg.jpg";
+import bgCafeSm from "../../assets/images/bg-cafe-sm.jpg"; 
+import bgCafe from "../../assets/images/bg-cafe.jpg"; 
+import vector from "../../assets/images/Vector.svg";
 
 const Home = () => {
     const [selectedFilter, setSelectedFilter] = useState("all");
@@ -28,17 +32,17 @@ const Main = styled.main`
     justify-content: center;
     min-height: 100vh;
     padding: 15rem 0;
-    background: var(--color-bg) url("./src/assets/images/bg-cafe-lg.jpg") no-repeat left top;
+    background: var(--color-bg) url(${bgCafeLg}) no-repeat left top;
     background-size: contain;
 
     @media (max-width: 90rem) {
         padding: 10rem 0;
-        background-image: url("./src/assets/images/bg-cafe.jpg");
+        background-image: url(${bgCafe});
     }
 
     @media (max-width: 40rem) {
         padding: 2.5rem 0;
-        background-image: url("./src/assets/images/bg-cafe-sm.jpg");
+        background-image: url(${bgCafeSm});
     }
 `
 
@@ -57,7 +61,7 @@ const Heading = styled.div`
     text-align: center;
     margin: 2.5rem auto 0;
     padding-top: 2.5rem;
-    background: url("./src/assets/images/vector.svg") no-repeat top right;
+    background: url(${vector}) no-repeat top right;
     background-size: contain;
 
     h1 {

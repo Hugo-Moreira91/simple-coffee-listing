@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { AppRoutes } from './pages/routes';
 import { Footer } from './components/footer';
 import { createGlobalStyle } from 'styled-components';
@@ -6,11 +6,11 @@ import { createGlobalStyle } from 'styled-components';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <GlobalStyle />
         <AppRoutes />
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }

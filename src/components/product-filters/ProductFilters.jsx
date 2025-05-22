@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { FilterButton } from "../filter-button/FilterButton";
 import styled from "styled-components";
 
