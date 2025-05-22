@@ -5,7 +5,6 @@ import { useState } from "react";
 import bgCafeLg from "../../assets/images/bg-cafe-lg.jpg";
 import bgCafeSm from "../../assets/images/bg-cafe-sm.jpg"; 
 import bgCafe from "../../assets/images/bg-cafe.jpg"; 
-import vector from "../../assets/images/Vector.svg";
 
 const Home = () => {
     const [selectedFilter, setSelectedFilter] = useState("all");
@@ -61,7 +60,7 @@ const Heading = styled.div`
     text-align: center;
     margin: 2.5rem auto 0;
     padding-top: 2.5rem;
-    background: url(${vector}) no-repeat top right;
+    background: url("/simple-coffee-listing/vector.svg") no-repeat top right;
     background-size: contain;
 
     h1 {

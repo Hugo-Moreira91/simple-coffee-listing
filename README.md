@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://hugo-moreira91.github.io/flip-coin/">
+    <a href="https://hugo-moreira91.github.io/simple-coffee-listing/">
       Solução
     </a>
     <span> | </span>
@@ -27,7 +27,7 @@
 
 ## Visão geral
 
-![demonstração](./public/medias/project-flip-coin-demonstration.gif)
+![demonstração](./public/medias/project-simple-coffee-listing-demonstration.gif)
 
 Acima temos uma breve demonstração do projeto em funcionamento. 
 
