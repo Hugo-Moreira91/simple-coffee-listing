@@ -134,7 +134,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     column-gap: 1.85rem;
     row-gap: 1.5rem;
     max-width: calc(3 * 16.25rem + 4rem);
-    margin: 2.5rem auto;
+    margin: 2.5rem auto 5rem;
 `,CS="/simple-coffee-listing/assets/bg-cafe-lg-D4wZrGc_.jpg",DS="/simple-coffee-listing/assets/bg-cafe-sm-C3mjbG--.jpg",wS="/simple-coffee-listing/assets/bg-cafe-Dl9muhyO.jpg",zS=()=>{const[a,i]=q.useState("all");return at.jsx(MS,{children:at.jsxs(NS,{children:[at.jsxs(US,{children:[at.jsx("h1",{children:"Our Collection"}),at.jsx("p",{children:"Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly."})]}),at.jsx(H2,{selectedFilter:a,setSelectedFilter:i}),at.jsx(xS,{filter:a})]})})},MS=ie.main`
     display: flex;
     align-items: center;
