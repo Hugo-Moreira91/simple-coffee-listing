@@ -35,7 +35,7 @@ const CardGrid = styled.div`
     column-gap: 1.85rem;
     row-gap: 1.5rem;
     max-width: calc(3 * 16.25rem + 4rem);
-    margin: 2.5rem auto;
+    margin: 2.5rem auto 5rem;
 `
 
 export default CoffeeList;
